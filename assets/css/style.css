@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+body {
+  background: linear-gradient(rgb(61, 61, 218),rgb(161, 155, 155));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+}
+h1 {
+  font-size: 50px;
+  padding: 6px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  filter: drop-shadow(7px 7px 7px black);
+}
+h5 {
+  font-size: 20px;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-size: 13px;
+  padding: 5px;
+  color: rgb(91, 90, 88);
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
